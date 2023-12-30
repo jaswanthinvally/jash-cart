@@ -5,6 +5,7 @@ import Products from './Pages/Products/Products'
 import Cart from './Pages/Cart/Cart'
 import ProductDetails from './Pages/ProductDetails/ProductDetails'
 import Navbar from './Components/Navbar'
+import Login from './Components/Login'
 
 
 
@@ -17,7 +18,9 @@ const App = () => {
         <Route path='/products' element={<Products/>}/>  
         <Route path='/productdetails' element={<ProductDetails/>}/>  
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/login' element={<Login/>}/>
       </Routes>
+      {/*<Login/>*/}
     </BrowserRouter>
   )
 }
